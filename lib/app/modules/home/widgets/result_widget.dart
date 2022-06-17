@@ -42,14 +42,14 @@ class ResultWidget extends StatelessWidget {
               text: TextSpan(
                   text: '$history \n',
                   style: const TextStyle(
-                    fontSize: 18,
+                    fontSize: 16,
                     color: AppColors.strongGrey,
                   ),
                   children: [
                     TextSpan(
                       text: valueToDisplay,
                       style: const TextStyle(
-                        fontSize: 28,
+                        fontSize: 25,
                         color: Colors.black,
                       ),
                     ),
