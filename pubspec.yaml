@@ -1,0 +1,35 @@
+name: calculator
+description: A calculator project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  #bloc
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  #bloc end
+
+  #modular
+  flutter_modular: ^5.0.2
+  modular_bloc_bind: ^1.0.1
+  #modular end
+
+  #asuka
+  asuka: ^2.0.0+1
+  #asuka end
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
